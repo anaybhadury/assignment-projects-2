@@ -40,21 +40,21 @@ body{
     /* color: rgba(255, 255, 255, 0.5); */
 }
 
-                                            /* navbar section styles start */
+/* header */
 .header{
     max-width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
+
+/* navbar section styles start */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 67%;
     margin: 0 auto;
-    margin-top: 50px;
-
+    padding-top: 50px;
 }
 .nav-menu ul{
     display: flex;
@@ -71,15 +71,31 @@ body{
     font-weight: 400;
 }
 .nav-menu ul li{
-    margin-right: 45px;
+    margin-right: 2.8rem;
 }
-
 .nav-title{
     font-size: 2.2rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
+.menu-bar{
+    display: none;
+}
 /* navbar section styles end */
+
+/* banner section styles start */
+
+
+/* banner section styles end */
+
+
+
+
+
+
+
+
+
 
 
 
