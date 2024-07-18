@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    /* navbar section */
+    /* navbar section start*/
     .navbar ul{
         display: none;
     }
@@ -14,10 +14,45 @@
     .menu-bar{
         display: inline;
     }
-    /* navbar section */
+    /* navbar section end*/
     
-    
-    
+    /* banner section start */
+    .banner-container{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 1.2rem;
+    }
+    .banner-text-content{
+        max-width: 100%;
+        margin-bottom: 2.3rem;
+    }
+    .banner-text-content h1{
+        font-size: 2.2rem;
+        font-weight: 700;
+        max-width: 70%;
+    }
+    .banner-text-content p{
+        max-width: 85%;
+    }
+    .banner-text-content button{
+        max-width: 100%;
+    }
+    .banner-img-content img{
+        max-width: 100%;
+    }
+    .blur1{
+        padding: 0.6rem 1.1rem;
+        top: 8%;
+    }
+    .blur2{
+        padding: 0.7rem 1.3rem;
+        width: 50%;
+        top: 45%;
+        left: 0%;
+    }
+    /* banner section end */
     
 }
 
@@ -48,11 +83,48 @@
         display: inline;
         display: flex;
     }
-    /* navbar section */
+    /* navbar section end */
 
+    /* banner section start */
+    .banner-container{
+        flex-direction: column;
+        max-width: 100%;
+        /* margin: 3rem 1.2rem 0 1.2rem; */
+        margin-left: 2.8rem;
+        margin-right: 2.8rem;
+        margin-top: 4.3rem;
+        margin-bottom: 5.6rem;
+        margin: 4.3rem 2.8rem 0 4rem;
+    }
+    .banner-text-content{
+        max-width: 100%;
+        margin-bottom: 2.3rem;
+    }
+    .banner-text-content h1{
+        font-size: 4rem;
+        font-weight: 700;
+        max-width: 70%;
+    }
+    .banner-text-content p{
+        max-width: 90%;
+    }
+    .banner-img-content img{
+        max-width: 100%;
+        margin-top: 5rem;
+    }
+    .blur1{
+        padding: 0.6rem 1.1rem;
+        top: 20%;
+        left: 50%;
+    }
+    .blur2{
+        padding: 0.7rem 1.3rem;
+        width: 50%;
+        top: 65%;
+        left: -8%;
+    }
 
-
-
+    /* banner section end */
 
 
 

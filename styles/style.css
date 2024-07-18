@@ -91,7 +91,6 @@ body{
     max-width: 67%;
     margin: 0 auto;
     margin-top: 30px;
-    /* justify-content: center; */
     align-items: center;
 }
 #span{
@@ -183,10 +182,6 @@ body{
     margin-right: 15px;
     background-color: rgb(230, 83, 60);
 }
-
-
-
-
 /* banner section styles end */
 
 
