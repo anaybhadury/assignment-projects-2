@@ -26,7 +26,14 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
-                                            /* similar-text tag */
+
+/* similar-text tag */
+.similar-text{
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
 .similar-text h1{
     font-size: 2.8rem;
     font-weight: 900;
@@ -35,10 +42,11 @@ body{
     margin-bottom: 12px;
 }
 .similar-text p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     text-align: center;
-    /* color: rgba(255, 255, 255, 0.5); */
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* header */
@@ -184,6 +192,35 @@ body{
 }
 /* banner section styles end */
 
+/* your habit styles section start */
+.habit-card-content{
+    max-width: 67%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.9rem;
+    margin-bottom: 6.25rem;
+}
+.habit-card{
+    text-align: center;
+    max-width: 14rem;
+}
+.card img{
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+.habit-card h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+/* your habit styles section end*/
 
 
 
