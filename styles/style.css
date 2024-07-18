@@ -17,13 +17,14 @@ body{
 
                                             /* sharyed styles */
 .btn-primary{
-    padding: 8px 25px;
+    padding: 10px 30px;
     border: none;
     border-radius: 46px;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
 }
                                             /* similar-text tag */
 .similar-text h1{
@@ -47,7 +48,7 @@ body{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
-/* navbar section styles start */
+                                    /* navbar section styles start */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -81,9 +82,109 @@ body{
 .menu-bar{
     display: none;
 }
-/* navbar section styles end */
+                                    /* navbar section styles end */
 
-/* banner section styles start */
+                                    /* banner section styles start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 67%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* justify-content: center; */
+    align-items: center;
+}
+#span{
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.banner-text-content{
+    max-width: 42%;
+}
+.banner-text-content h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+.banner-text-content p{
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 26px;
+    line-height: 25px;
+}
+.btn-primary2{
+    padding: 10px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 46px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.banner-img-content{
+    padding-right: 5%;
+    position: relative;
+}
+                                /* two blur item */
+.blur1{
+    padding: 0.6rem 1.3rem;
+    width: 45%;
+    background: rgba(109, 106, 106, 0.051);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 25%;
+    right: -5%;
+}
+.blur1 h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.blur1 p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.blur2{
+    padding: 1rem 1.3rem;
+    width: 45%;
+    background: rgba(109, 106, 106, 0.051);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 74%;
+    left: -23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blur2 h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.blur2 p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.dot{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: rgb(230, 83, 60);
+}
+
+
 
 
 /* banner section styles end */
