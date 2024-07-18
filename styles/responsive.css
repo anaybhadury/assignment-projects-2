@@ -53,6 +53,42 @@
         left: 0%;
     }
     /* banner section end */
+
+    /* your habit section start */
+    .similar-text{
+        max-width: 100%;
+        padding: 0 1.2rem;
+        margin-top: 2rem;
+    }
+    .habit-card-content{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .habit-card{
+        text-align: center;
+        max-width: 14rem;
+        margin-bottom: 2rem;
+    }
+    .habit-card h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .habit-card p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    /* your habit section end */
+
+
+
+
+
+
+
+
     
 }
 
@@ -123,9 +159,25 @@
         top: 65%;
         left: -8%;
     }
-
     /* banner section end */
 
+    /* you habit section start */
+    .similar-text{
+        max-width: 65%;
+        padding: 0 1.2rem;
+        margin-top: 5rem;
+    }
+    .habit-card-content{
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .habit-card{
+        text-align: center;
+        max-width: 14rem;
+        margin-bottom: 2rem;
+    }
+    /* you habit section end */
 
 
 
