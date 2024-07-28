@@ -110,6 +110,50 @@
             font-weight: 900;
         }
         /* run extra section end */
+
+            /* bmi calculator section start */
+    .bmi-calculator-container{
+        flex-direction: column;
+        padding: 1rem;
+        height: 48rem;
+        max-width: 100%;
+        margin-bottom: 3.4rem;
+    }
+    #cal-btn {
+        padding: 18px 60px;
+    }
+    #bmi-text h1{
+        font-size: 2.5rem;
+    }
+    #bmi-text P{
+        margin-bottom: 3.4rem;
+    }
+    .bmi-chart-content h2{
+        margin-bottom: 2rem;
+    }
+    .calculate-main-content{
+        gap: 10px;
+        grid-template-columns: repeat(2, 190px);
+    }
+    .calculate-text-content p{
+        line-height: 25px;
+    }
+    .calculate-main-content input{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .activity-selector{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .gender-selector{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    /* bmi calculator section end */
     
 }
 
@@ -227,6 +271,50 @@
             padding: 10px 66px;
         }
         /* run extra section end */
+
+            /* bmi calculator section start */
+    .bmi-calculator-container{
+        flex-direction: column;
+        padding: 1rem;
+        height: 48rem;
+        max-width: 100%;
+        margin-bottom: 3.4rem;
+    }
+    #cal-btn {
+        padding: 18px 60px;
+    }
+    #bmi-text h1{
+        font-size: 2.5rem;
+    }
+    #bmi-text P{
+        margin-bottom: 3.4rem;
+    }
+    .bmi-chart-content h2{
+        margin-bottom: 2rem;
+    }
+    .calculate-main-content{
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .calculate-text-content p{
+        line-height: 25px;
+    }
+    .calculate-main-content input{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .activity-selector{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .gender-selector{
+        padding: 20px 0px 15px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    /* bmi calculator section end */
     
 
 }
