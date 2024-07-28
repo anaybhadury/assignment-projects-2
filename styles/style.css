@@ -337,7 +337,47 @@ td{
 }
 /* bmi calculator section styles end */
 
-
+/* meet our team section styles start */
+.meet-ourteam-container{
+    max-width: 67%;
+    height: 50rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+    border-radius: 20px;
+    filter: brightness(0.8);
+}
+.trainer-card{
+    height: 23rem;
+    width: 22rem;
+    border-radius: 10px;
+}
+.trainer-card img{
+    height: 350px;
+    width: 392px;
+}
+.trainer-card img{
+    height: 21.9rem;
+    border-radius: 20px;
+    position: absolute;
+}
+.traine-text{
+    left: 5%;
+    bottom: -265px;
+    position: relative;
+}
+.traine-text h4{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.traine-text p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* meet our team section styles end */
 
 
 
