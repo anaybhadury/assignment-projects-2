@@ -60,10 +60,17 @@
         padding: 0 1.2rem;
         margin-top: 2rem;
     }
+    .habit-container h1{
+        font-size: 2rem;
+    }
+    #join-now{
+        padding: 10px 66px;
+    }
     .habit-card-content{
-        max-width: 100%;
+        max-width: 90%;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 3.4rem;
     }
     .habit-card{
         text-align: center;
@@ -81,20 +88,15 @@
         font-weight: 400;
     }
     /* your habit section end */
-
-
-
-
-
-
-
-
     
 }
 
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     /* navbar section */
+    #btn-home{
+        padding: 10px 30px;
+    }
     .navbar ul{
         display: none;
     }
@@ -122,15 +124,14 @@
     /* navbar section end */
 
     /* banner section start */
+    #btn-join{
+        padding: 10px 45px;
+    }
     .banner-container{
         flex-direction: column;
         max-width: 100%;
-        /* margin: 3rem 1.2rem 0 1.2rem; */
-        margin-left: 2.8rem;
-        margin-right: 2.8rem;
-        margin-top: 4.3rem;
-        margin-bottom: 5.6rem;
-        margin: 4.3rem 2.8rem 0 4rem;
+        margin: 4.3rem 3rem 0 3rem;
+        margin-bottom: 3.5rem;
     }
     .banner-text-content{
         max-width: 100%;
@@ -178,8 +179,6 @@
         margin-bottom: 2rem;
     }
     /* you habit section end */
-
-
-
+    
 
 }

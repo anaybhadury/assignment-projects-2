@@ -17,7 +17,7 @@ body{
 
                                             /* sharyed styles */
 .btn-primary{
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: none;
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -120,7 +120,7 @@ body{
     line-height: 25px;
 }
 .btn-primary2{
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 46px;
     background-color: transparent;
@@ -219,7 +219,52 @@ body{
     font-size: 0.7rem;
     font-weight: 400;
 }
-/* your habit styles section end*/
+/* your habit section styles end*/
+
+/* run and extra section styles start */
+.run-extra-container{
+    max-width: 67%;
+    height: 22rem;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 6rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-image img{
+    width: 300%;
+    position: relative;
+    left: -500px;
+    top: -90px;
+}
+.run-image{
+    height: 310px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.run-text{
+    padding-left: 50px;
+    margin: 0;    
+}
+.run-text h1{
+    text-align: start;
+}
+.run-text p{
+    text-align: start;
+    margin-bottom: 1rem;
+}
+/* run and extra section styles end */
+
+
+
+
+
+
+
 
 
 
