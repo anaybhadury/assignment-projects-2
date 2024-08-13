@@ -38,6 +38,7 @@
     }
     .banner-text-content button{
         max-width: 100%;
+        margin-left: 0px;
     }
     .banner-img-content img{
         max-width: 100%;
