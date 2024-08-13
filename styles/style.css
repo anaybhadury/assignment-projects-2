@@ -26,6 +26,9 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
+.dark-text{
+    color: rgba(219, 214, 214, 0.664);
+}
 
 /* similar-text tag */
 .similar-text{
@@ -378,6 +381,66 @@ td{
     color: rgba(255, 255, 255, 0.5);
 }
 /* meet our team section styles end */
+
+/* membership plan section styles start */
+.membership-card-container{
+    max-width: 67%;
+    /* height: 35rem; */
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 30px; */
+    border-radius: 0 50px 0 50px;
+}
+.membership-card{
+    width: 22rem;
+    height: 26rem;
+    border: 1px solid rgba(255, 120, 70, 1);
+    padding: 1rem;
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
+.membership-card:hover{
+    box-shadow: 5px 5px 30px rgba(187, 17, 17, 0.2);
+}
+.membership-card h2{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.membership-card p{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.membership-card i{
+    margin-right: 1rem;
+}
+.extra-content{
+    border: 5px solid rgba(255, 120, 70, 1);
+    border-radius: 0 50px 0 50px;
+}
+.choose-btn{
+    padding: 10px 15px;
+    border: 1px solid salmon;
+    border-radius: 46px;
+    background: transparent;
+    color: salmon;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.choose-btn:hover{
+    background-color: salmon;
+    color: black;
+    font-weight: bold;
+}
+.choose-btn:active{
+    opacity: 0.6;
+}
+/* membership plan section styles end */
 
 /* footer container styles start */
 .footer-container{

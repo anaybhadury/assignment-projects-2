@@ -359,26 +359,28 @@
     /* bmi calculator section end */
 
         /* meet our section start */
-        .meet-ourteam-container{
-            max-width: 90%;
-            padding: 20px;
-            height: 43rem;
-            filter: brightness(0.8);
-        }
-        .trainer-card img{
-            width: 200px;
-            height: 18.5rem;
-        }
-        .trainer-card{
-            height: 20rem;
-            width: 12rem;
-        }
-        .traine-text{
-            bottom: -225px;
-        }
-        /* meet our section end */
+    .meet-ourteam-container{
+        max-width: 90%;
+        padding: 20px;
+        height: 43rem;
+        filter: brightness(0.8);
+    }
+    .trainer-card img{
+        width: 200px;
+         height: 18.5rem;
+    }
+    .trainer-card{
+        height: 20rem;
+        width: 12rem;
+    }
+    .traine-text{
+        bottom: -225px;
+    }
+    /* meet our section end */
 
-            /* footer section start */
+    /* membership plan section s */
+
+    /* footer section start */
     .footer-content{
         flex-direction: column;
         padding: 2rem 1.4rem 0;
