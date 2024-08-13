@@ -174,7 +174,19 @@
         }
         /* meet our team section end */
 
-            /* footer section start */
+    /* membership plan section start */
+    .membership-card-container{
+        max-width: 100%;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .membership-card{
+        height: 24rem;
+        margin-bottom: 20px;
+    }
+    /* membership plan section end */
+
+    /* footer section start */
     .footer-content{
         flex-direction: column;
         padding: 2rem 1.4rem 0;
@@ -364,6 +376,7 @@
         padding: 20px;
         height: 43rem;
         filter: brightness(0.8);
+        margin-bottom: 25px;
     }
     .trainer-card img{
         width: 200px;
@@ -378,7 +391,17 @@
     }
     /* meet our section end */
 
-    /* membership plan section s */
+    /* membership plan section start */
+    .membership-card-container{
+        max-width: 100%;
+        padding: 10px;
+        margin-top: 3rem;
+    }
+    .membership-card{
+        margin: 10px;
+        height: 28rem;
+    }
+    /* membership plan section end */
 
     /* footer section start */
     .footer-content{
